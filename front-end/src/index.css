@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glow-mesh {
+    background: radial-gradient(circle at 50% 0%, rgba(20, 184, 166, 0.15), transparent 70%),
+                radial-gradient(circle at 80% 50%, rgba(99, 102, 241, 0.1), transparent 50%);
+  }
+  .glass-card {
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
