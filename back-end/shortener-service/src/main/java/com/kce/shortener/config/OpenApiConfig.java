@@ -12,7 +12,7 @@ import io.swagger.v3.oas.models.info.Info;
 public class OpenApiConfig {
 
 	@Bean
-	public OpenAPI customOpenAPI() {
+	OpenAPI customOpenAPI() {
 		return new OpenAPI().info(new Info().title("URL Shortener Service API")
 				.description("API documentation for Double Rolling Hash URL Shortener, Redirects, and Analytics").version("1.0.0"));
 	}
