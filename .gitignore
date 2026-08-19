@@ -1,0 +1,16 @@
+# IDE files
+.metadata/
+.project
+.classpath
+.settings/
+.factorypath
+*.element
+
+# Build outputs
+target/
+dist/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
